@@ -1,0 +1,537 @@
+messages:
+  AMBIGUOUS_PRESCRIPTION_RULE:
+    displayName:
+      en-US: "Ambiguous prescription rule"
+      zh-CN: "发药规则的匹配有歧义"
+  AUTO_SUPPLY_SUGGESTION_FILLED:
+    displayName:
+      en-US: "This auto supply suggestion has been filled."
+      zh-CN: "这条自动供应建议已经实现"
+  BAD_PACKAGE_DRUG_COUNT:
+    displayName:
+      en-US: "Bad package drug count"
+      zh-CN: "错误的包裹内药物数量"
+  BLIND_CODE_IS_EMPTY:
+    displayName:
+      en-US: "Randomization number is blank"
+      zh-CN: "随机号不可为空"
+  BLIND_DATA_ACCESS_DENIED:
+    displayName:
+      en-US: "Access is denied due to blind setup"
+      zh-CN: "拒绝盲态用户访问"
+  BLIND_OPERATION_DENIED:
+    displayName:
+      en-US: "Blind role can't operate on blind data."
+      zh-CN: "盲态角色不能操作盲态数据"
+  CANNOT_ACCESS_BLINDING_DATA:
+    displayName:
+      en-US: "Cannot access blinded data"
+      zh-CN: "不能访问盲态数据"
+  CANNOT_DELETE_EXECUTED_SIMULATION:
+    displayName:
+      en-US: "Cannot delete executed randomization simulations"
+      zh-CN: "不能删除已执行的随机模拟"
+  CANNOT_DISABLE_DISABLED_CONFIG:
+    displayName:
+      en-US: "Cannot discard already discarded configuration"
+      zh-CN: "不能作废已经作废的配置"
+  CANNOT_DISABLE_DRAFT_CONFIG:
+    displayName:
+      en-US: "Cannot discard draft configuration"
+      zh-CN: "不能作废草稿配置"
+  CANNOT_ENABLE_ENABLED_CONFIG:
+    displayName:
+      en-US: "Cannot enable in-use configuration"
+      zh-CN: "不能启用已经启用的配置"
+  CANNOT_EXPORT_INCOMPLETE_SIMULATION:
+    displayName:
+      en-US: "Cannot export unexecuted randomization simulations"
+      zh-CN: "无法导出未执行的随机模拟"
+  CANNOT_FIND_STRATUM_RATIO:
+    displayName:
+      en-US: "No stratification percentage"
+      zh-CN: "没有分层比例"
+  CANNOT_OPERATE_BLIND_CODE_UNDER_ENABLED_CONFIG:
+    displayName:
+      en-US: "Cannot discard in-use blind codes"
+      zh-CN: "不能修改已经启用的盲底配置"
+  CANNOT_OPERATE_SIMULATION_UNDER_ENABLED_CONFIG:
+    displayName:
+      en-US: "Cannot simulate in-use blind codes"
+      zh-CN: "不能模拟已经启用的盲底配置"
+  CANNOT_RUN_EXECUTED_SIMULATION:
+    displayName:
+      en-US: "Cannot execute randomization simulations that have already been executed"
+      zh-CN: "无法执行已执行的随机模拟"
+  CANNOT_SIMULATE_WITHOUT_SITE_SETTING:
+    displayName:
+      en-US: "Cannot simulate randomization due to lack of site settings"
+      zh-CN: "缺乏中心设置，无法模拟随机"
+  CANNOT_UNBLIND_UNLOCKED_PROJECT:
+    displayName:
+      en-US: "Database not locked. Cannot unblind."
+      zh-CN: "未锁库，无法揭盲"
+  CANNOT_UPDATE_EXECUTED_SIMULATION:
+    displayName:
+      en-US: "Cannot modified executed randomization simulations"
+      zh-CN: "无法修改已执行的随机模拟"
+  CONFLICTS_WITH_EXISTING_PACKAGE_OID:
+    displayName:
+      en-US: "The new drug package oid conflicts with existing package oid"
+      zh-CN: "药物的包装OID和系统已有的包装OID冲突"
+  CRF_HAS_NO_DISPENSING_FORM:
+    displayName:
+      en-US: "The specified CRF has no visit/form for drug dispensing"
+      zh-CN: "指定的CRF没有配置用于发药的访视和表单"
+  DEPOT_AUTO_SUPPLY_NOT_ENABLED:
+    displayName:
+      en-US: "The auto supply plan in depot is not enabled"
+      zh-CN: "自动供应计划未启用"
+  DEPOT_AUTO_SUPPLY_NOT_DEPLOYED:
+    displayName:
+      en-US: "The auto supply plan in depot is not deployed"
+      zh-CN: "自动供应计划未部署"
+  DRUG_EXPIRED:
+    displayName:
+      en-US: "Drug is expired"
+      zh-CN: "药物已经过期"
+  DRUG_OWNED_BY_DEPOT:
+    displayName:
+      en-US: "Drug already returned to depot"
+      zh-CN: "药物已经归于药房"
+  DRUG_PACKED_IN_ORDER:
+    displayName:
+      en-US: "The drug is packed in an order, please remove it from the order to update the status"
+      zh-CN: "该药物编号已经被订单配货了，请先从订单配货状态中解除，再更新药物状态"
+  DRUG_SHIPPED:
+    displayName:
+      en-US: "The drug has been shipped."
+      zh-CN: "药物已经被物流发出"
+  DUPLICATE_DRUG_TEMPLATE_CONFIG_OID:
+    displayName:
+      en-US: "Duplicated drug configuration OID"
+      zh-CN: "重复的药物配置编号OID"
+  DUPLICATE_DRUG_TEMPLATE_OID:
+    displayName:
+      en-US: "Duplicated drug definition OID"
+      zh-CN: "重复的药物定义OID"
+  DUPLICATE_SEQUENCE_NUMBER:
+    displayName:
+      en-US: "Duplicated sequence numbers"
+      zh-CN: "序号重复"
+  DUPLICATE_SHIPMENT_CODE:
+    displayName:
+      en-US: "Duplicated logistic number"
+      zh-CN: "重复的物流编号"
+  DUPLICATE_SIMULATION_NAME:
+    displayName:
+      en-US: "Duplicated randomization simulation names"
+      zh-CN: "重复的随机模拟名"
+  DUPLICATE_SITE_SETTING:
+    displayName:
+      en-US: "Duplicated site settings"
+      zh-CN: "重复的研究中心设置"
+  DUPLICATE_SUBJECT_BLIND_CODE:
+    displayName:
+      en-US: "Duplicated randomization number"
+      zh-CN: "重复的随机编号"
+  DUPLICATED_DRUG_OID:
+    displayName:
+      en-US: "Duplicated number"
+      zh-CN: "重复的编号"
+  DUPLICATED_LOT_CODE:
+    displayName:
+      en-US: "Duplicated lot number"
+      zh-CN: "重复的批号"
+  DUPLICATED_SUBJECT_BLINDING_BLOCK_OID:
+    displayName:
+      en-US: "Duplicated subject blinding code block OID"
+      zh-CN: "重复的随机区块编号"
+  EXPIRE_SOON:
+    displayName:
+      en-US: "The drug will expire soon"
+      zh-CN: "药物即将过期"
+  FAILED_TO_COPY_CRF_DRUG_ESTIMATION:
+    displayName:
+      en-US: "Failed to copy the CRF Drug Estimation"
+      zh-CN: "无法复制用药数量配置"
+  FAILED_TO_DIVIDE_ORDERINGS:
+    displayName:
+      en-US: "Failed to divide the drug ordrings. It may be caused by the absense of auto-supply config, or there are no subjects in the auto-supply short-window config."
+      zh-CN: "拆分药物需求失败。可能是自动供应中未配置动态模式，或者是在动态模式短窗期内没有查询到有效的受试者发药访视"
+  FAILED_TO_LOAD_STUDY_CONFIGURATION:
+    displayName:
+      en-US: "Failed to load study configuration"
+      zh-CN: "加载Construct上配置失败"
+  FORBIDDEN_UNBLINDING_TYPE:
+    displayName:
+      en-US: "Forbidden unblinding type in the current status"
+      zh-CN: "根据当前的揭盲状态，不允许此种揭盲操作"
+  IMMUTABLE_FIELD_MODIFICATION:
+    displayName:
+      en-US: "Immutable field modification"
+      zh-CN: "修改了只读字段"
+  INVALID_ARM_OID:
+    displayName:
+      en-US: "Invalid Arm Oid"
+      zh-CN: "无效的Arm OID"
+  INVALID_AUTO_SUPPLY_CONFIG:
+    displayName:
+      en-US: "Invalid Auto-supply Config"
+      zh-CN: "无效的自动供应配置"
+  INVALID_BACKUP_BLIND_CODE:
+    displayName:
+      en-US: "Invalid backup blind code"
+      zh-CN: "无效的备份盲底编码"
+  INVALID_COHORT_OID:
+    displayName:
+      en-US: "Invalid Cohort Oid"
+      zh-CN: "无效的Cohort OID"
+  INVALID_CONTACT_INFO:
+    displayName:
+      en-US: "Invalid Contact Info"
+      zh-CN: "无效的联系人信息"
+  INVALID_CRF:
+    displayName:
+      en-US: "Invalid CRF"
+      zh-CN: "无效的CRF"
+  INVALID_CRF_DRUG_ESTIMATION:
+    displayName:
+      en-US: "Invalid CRF Drugs Estimation"
+      zh-CN: "无效CRF访视用药评估"
+  INVALID_CRF_PATH:
+    displayName:
+      en-US: "Invalid CRF Path"
+      zh-CN: "无效CRF路径"
+  INVALID_CUSTOMER_TICKET:
+    displayName:
+      en-US: "Invalid Customer Ticket"
+      zh-CN: "无效的用户工单"
+  INVALID_DEPOT_ID:
+    displayName:
+      en-US: "Invalid Depot/Warehouse ID"
+      zh-CN: "无效的药房/库房ID"
+  INVALID_DISPENSE_QUANTITY:
+    displayName:
+      en-US: "Invalid dispensed dosage"
+      zh-CN: "无效的发药剂量"
+  INVALID_DRUG_DISPENSING_FORM:
+    displayName:
+      en-US: "Invalid drug dispensing form"
+      zh-CN: "无效的发药表单定义"
+  INVALID_DRUG_LOT_CODE:
+    displayName:
+      en-US: "Invalid manufacturing lot number"
+      zh-CN: "无效生产批号"
+  INVALID_DRUG_OID:
+    displayName:
+      en-US: "Invalid drug OID"
+      zh-CN: "无效药物OID"
+  INVALID_DRUG_OR_PRESCRIPTION_CONFIG:
+    displayName:
+      en-US: "Invalid drug or prescription configuration"
+      zh-CN: "无效的药物或者药方配置"
+  INVALID_DRUG_SPECIFICATION:
+    displayName:
+      en-US: "Invalid drug spec"
+      zh-CN: "无效的药物规格"
+  INVALID_DRUG_STATUS:
+    displayName:
+      en-US: "Invalid drug status"
+      zh-CN: "无效药物状态"
+  INVALID_DRUG_STATUS_TRANSIT:
+    displayName:
+      en-US: "Invalid Drug Status Transfer"
+      zh-CN: "无效药物状态转换"
+  INVALID_DRUG_TEMPLATE_CONFIG_CODE:
+    displayName:
+      en-US: "Invalid drug configuration blinding code"
+      zh-CN: "无效药物配置盲态编码"
+  INVALID_DRUG_TEMPLATE_OID:
+    displayName:
+      en-US: "Invalid drug code"
+      zh-CN: "无效药物编码"
+  INVALID_ENV:
+    displayName:
+      en-US: "Invalid environment"
+      zh-CN: "无效的环境"
+  INVALID_FILE:
+    displayName:
+      en-US: "Invalid file"
+      zh-CN: "无效的文件"
+  INVALID_FILE_TYPE:
+    displayName:
+      en-US: "Invalid file type"
+      zh-CN: "无效的文件类型"
+  INVALID_LOT:
+    displayName:
+      en-US: "Invalid Lot"
+      zh-CN: "无效的批号"
+  INVALID_OPERATION:
+    displayName:
+      en-US: "Invalid operation"
+      zh-CN: "无效的操作"
+  INVALID_ORDER_CRITERIA:
+    displayName:
+      en-US: "Invalid search ordering criteria"
+      zh-CN: "无效的搜索排序标准"
+  INVALID_ORDER_TYPE:
+    displayName:
+      en-US: "Invalid order type"
+      zh-CN: "无效的订单类型"
+  INVALID_ORDERING:
+    displayName:
+      en-US: "Invalid ordering list"
+      zh-CN: "无效的订单需求列表"
+  INVALID_PACKAGE:
+    displayName:
+      en-US: "Invalid packing"
+      zh-CN: "无效的包装"
+  INVALID_PACKED_DRUG:
+    displayName:
+      en-US: "Invalid packed drug"
+      zh-CN: "无效的打包药品"
+  INVALID_PRESCRIPTIONS:
+    displayName:
+      en-US: "Invalid prescription"
+      zh-CN: "无效的处方"
+  INVALID_PRESCRIPTION_OID:
+    displayName:
+      en-US: "Invalid Prescription OID"
+      zh-CN: "无效药方OID"
+  INVALID_RECLAIM_QUANTITY:
+    displayName:
+      en-US: "Invalid reclaim quantity"
+      zh-CN: "无效的回收数量"
+  INVALID_REPETITION:
+    displayName:
+      en-US: "Invalid number of simulations"
+      zh-CN: "无效的模拟次数"
+  INVALID_SEARCH_CRITERIA:
+    displayName:
+      en-US: "Invalid combination of search criteria"
+      zh-CN: "无效的搜索条件组合"
+  INVALID_SECONDARY_PACKAGE_DEF:
+    displayName:
+      en-US: "Invalid secondary package def in study config"
+      zh-CN: "无效的次要包装定义"
+  INVALID_SECONDARY_PACKAGE_NAME:
+    displayName:
+      en-US: "Invalid secondary package name in study config"
+      zh-CN: "无效的次要包装名字"
+  INVALID_SECONDARY_PACKAGE_OID:
+    displayName:
+      en-US: "Invalid secondary package OID"
+      zh-CN: "无效的次要包装编号"
+  INVALID_SHIPMENT:
+    displayName:
+      en-US: "Invalid logistic number"
+      zh-CN: "无效物流编号"
+  INVALID_SHIPMENT_STATUS_TRANSITION:
+    displayName:
+      en-US: "Invalid shipping order status change"
+      zh-CN: "无效的运单状态转换"
+  INVALID_SHIPPING_SERVICE_PROVIDER:
+    displayName:
+      en-US: "Invalid logistics provider"
+      zh-CN: "无效的物流提供商"
+  INVALID_SHIPPING_SOURCE_OR_DESTINATION:
+    displayName:
+      en-US: "Invalid logistics source or destination"
+      zh-CN: "无效的物流发起方或者目标方"
+  INVALID_SITE_ID:
+    displayName:
+      en-US: "Invalid Site ID"
+      zh-CN: "无效的中心ID"
+  INVALID_STRATUM_OID:
+    displayName:
+      en-US: "Invalid stratum OID"
+      zh-CN: "无效的分层OID"
+  INVALID_STUDY:
+    displayName:
+      en-US: "Invalid study"
+      zh-CN: "无效的项目"
+  INVALID_STUDY_CONFIG:
+    displayName:
+      en-US: "Invalid study config"
+      zh-CN: "无效的项目配置"
+  INVALID_STUDY_STATUS:
+    displayName:
+      en-US: "Invalid study status"
+      zh-CN: "无效的项目状态"
+  INVALID_SUBJECT_ASSIGNMENT:
+    displayName:
+      en-US: "Invalid subject assignment"
+      zh-CN: "无效的受试者分配"
+  INVALID_SUBJECT_BLINDING_CODE_SEQUENCE:
+    displayName:
+      en-US: "Invalid subject blinding code sequence"
+      zh-CN: "无效的受试者序列号"
+  INVALID_SUBJECT_BLOCK_SIZE:
+    displayName:
+      en-US: "Invalid subject blind code block size"
+      zh-CN: "无效的盲底区块大小"
+  INVALID_SUBJECT_ID:
+    displayName:
+      en-US: "Invalid subject ID"
+      zh-CN: "无效受试者ID"
+  INVALID_SUBJECT_FORM:
+    displayName:
+      en-US: "Invalid subject form"
+      zh-CN: "无效的受试者表单"
+  INVALID_SUBJECT_STATUS_EXCLUSIONS:
+    displayName:
+      en-US: "Invalid subject status exclusions"
+      zh-CN: "无效的受试者状态配置"
+  INVALID_SUPPLY_PLAN:
+    displayName:
+      en-US: "Invalid supply plan"
+      zh-CN: "无效的自动供应计划设置"
+  INVALID_SUPPLY_PLAN_DRUG_CODE:
+    displayName:
+      en-US: "Invalid drug code of supply plan"
+      zh-CN: "自动供应计划设置中药物编码无效"
+  INVALID_SUPPLY_PLAN_INITIAL_REQUIREMENT:
+    displayName:
+      en-US: "Invalid initial requirement of supply plan"
+      zh-CN: "自动供应计划设中库存初始值无效"
+  INVALID_SUPPLY_PLAN_MAX_MIN:
+    displayName:
+      en-US: "Invalid max/min of supply plan"
+      zh-CN: "自动供应计划设置中上限值/下限值设置无效"
+  INVALID_SUPPLY_PLAN_SHORT_LONG_WINDOW:
+    displayName:
+      en-US: "Invalid short/long window of supply plan"
+      zh-CN: "自动供应计划设置中短期窗、长期窗设置无效"
+  INVALID_SUPPLY_PLAN_OID:
+    displayName:
+      en-US: "Invalid supply plan OID"
+      zh-CN: "无效的自动供应计划设置OID"
+  INVALID_TOTAL_SUBJECT_NUM:
+    displayName:
+      en-US: "Invalid number of subjects, which exceeds that of blind codes"
+      zh-CN: "无效的受试者数，受试者数超出盲底数"
+  INVALID_UNBLINDING_TYPE:
+    displayName:
+      en-US: "Invalid unblinding type"
+      zh-CN: "无效的揭盲类型"
+  INVALID_USER_NAME:
+    displayName:
+      en-US: "Invalid username"
+      zh-CN: "无效的用户名"
+  INVALID_VARIABLE_OID:
+    displayName:
+      en-US: "Invalid variable OID"
+      zh-CN: "无效的变量OID"
+  INVALID_WORKFLOW_DEFINITION:
+    displayName:
+      en-US: "Invalid order workflow definition"
+      zh-CN: "无效的订单工作流定义"
+  INVALID_WORKFLOW_TYPE:
+    displayName:
+      en-US: "Invalid order workflow type"
+      zh-CN: "无效的订单工作流类型"
+  LACK_OF_BACKUP_BLIND_CODE:
+    displayName:
+      en-US: "Spare blind codes not supplied"
+      zh-CN: "未提供备用盲底"
+  MISSING_CONTROL_STUDY_CONFIG:
+    displayName:
+      en-US: "Missing control study config. Please confirm if APP Control is enabled in Study Generic Settings."
+      zh-CN: "缺少Control配置。请确认是否已经在研究通用配置内为本试验启用产品Control。"
+  MISSING_PACKED_DRUG:
+    displayName:
+      en-US: "Missing packed drugs"
+      zh-CN: "无法找到打包的药品"
+  MISSING_SHIPMENTS:
+    displayName:
+      en-US: "Missing shipments"
+      zh-CN: "无法找到有效的运单"
+  MISSING_SUBJECT_BLIND_CODE_BLOCK_OID:
+    displayName:
+      en-US: "Block OID is required"
+      zh-CN: "缺少区块编码"
+  MISSING_SUBJECT_BLIND_CODE_OID:
+    displayName:
+      en-US: "OID of subject blind code is required"
+      zh-CN: "受试者盲底必须提供OID"
+  NOT_ENOUGH_DRUGS:
+    displayName:
+      en-US: "Not enough drugs in site/depot"
+      zh-CN: "中心、药房或者仓库没有足够的药品"
+  NOT_FOUND:
+    displayName:
+      en-US: "Not found"
+      zh-CN: "无法找到"
+  NOT_FOUND_DISPENSING_RULE:
+    displayName:
+      en-US: "Cannot find dispensing rule. Is the CRF well configured and deployed?"
+      zh-CN: "无法找到合适的发药规则。请检查CRF配置和部署。"
+  NOT_FOUND_DRUG_AUTO_SUPPLY_CONFIG:
+    displayName:
+      en-US: "Can't find drug-auto-supply config"
+      zh-CN: "药物自动供应配置未设置"
+  NOT_FOUND_STUDY_ENV_DRUG_DEF:
+    displayName:
+      en-US: "Cannot find drug settings in the current environment. Please contact your study administrator."
+      zh-CN: "无法找当前环境的药物配置, 联系相关人员添加对应信息"
+  NOT_FOUND_STUDY_ENV_SITE_DEPOT:
+    displayName:
+      en-US: "Cannot find depot associated with the site. Please contact your study administrator."
+      zh-CN: "无法找到对应中心和药房的关系, 联系相关人员添加对应信息"
+  ORDER_REQUIRED_PROPERTIES_MISSING:
+    displayName:
+      en-US: "The order misses required field."
+      zh-CN: "订单缺少必填信息."
+  REQUIRED_SOURCE_DEPOT:
+    displayName:
+      en-US: "Source depot is required"
+      zh-CN: "必须提供发货地"
+  REQUIRED_USER_SEQUENCE:
+    displayName:
+      en-US: "Drug sequence is required"
+      zh-CN: "必须提供药物序列号"
+  RETURN_ORDER_USES_KIT_SPEC_PACKING:
+    displayName:
+      en-US: "Returning order uses packing by a single drug kit"
+      zh-CN: "返回订单通过最小包装打包"
+  STRATUM_MUST_BE_EMPTY:
+    displayName:
+      en-US: "Stratum must be empty for this type of randomization"
+      zh-CN: "依据随机设置，盲底内分层字段必须留空"
+  SUPPLY_PLAN_IN_USE:
+    displayName:
+      en-US: "The supply plan was deployed and is used by some depots."
+      zh-CN: "自动供应模板正在被药房/库房使用"
+  SOURCE_ENV_HAS_NO_ACCESSIBLE_DEPOT:
+    displayName:
+      en-US: "The source env has no depot accessible"
+      zh-CN: "源环境没有可以访问的药房"
+  TARGET_ENV_HAS_NO_ACCESSIBLE_DEPOT:
+    displayName:
+      en-US: "The target env has no depot accessible"
+      zh-CN: "目标环境没有可以访问的药房"
+  UNDEFINED_PROJECT_FILE_TEMPLATE:
+    displayName:
+      en-US: "The project file template is not defined yet."
+      zh-CN: "项目文件模板未定义"
+  UNKNOWN_LANGUAGE_CODE:
+    displayName:
+      en-US: "Unknown language code"
+      zh-CN: "位置的语言"
+  UNSUPPORTED_OPERATION:
+    displayName:
+      en-US: "Unsupported Operation"
+      zh-CN: "不支持的操作"
+  USER_LOCKED:
+    displayName:
+      en-US: "Your account has been locked due to too many entry errors. Please try again in 5 minutes."
+      zh-CN: "因为多次输入错误，您的帐号已被锁定，请5分钟后再试"
+  WRONG_PASSWORD:
+    displayName:
+      en-US: "Incorrect password"
+      zh-CN: "密码错误"
+  NONE:
+    displayName:
+      en-US: "No Error"
+      zh-CN: "没有错误"

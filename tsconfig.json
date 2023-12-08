@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "outDir": "build",
+    "useDefineForClassFields": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": ["vite/client", "node"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@tests/*": ["tests/*"]
+    },
+    "preserveSymlinks": false,
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "script/**/*.ts"],
+  "exclude": ["node_modules"]
+}

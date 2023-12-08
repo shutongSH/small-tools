@@ -9,16 +9,23 @@
     "preview": "vite preview",
     "lint:style": "prettier . -c",
     "lint": "pnpm lint:style",
-    "lint-fix": "pnpm lint:style --write"
+    "lint-fix": "pnpm lint:style --write",
+    "run_yaml2json": "tsx ./script/yaml2json/index.ts"
   },
   "dependencies": {
+    "@fxts/core": "^0.23.0",
     "@vue/eslint-config-typescript": "^12.0.0",
     "eslint": "^8.52.0",
-    "recommended": "link:@vue/typescript/recommended",
+    "js-yaml": "^4.1.0",
+    "lodash-es": "^4.17.21",
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.10.3",
     "@vitejs/plugin-vue": "^4.2.3",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3",
     "vite": "^4.4.5"
   }
 }
