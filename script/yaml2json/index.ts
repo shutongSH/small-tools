@@ -14,7 +14,7 @@ type JsonObject = {
   "zh-CN": Record<string, string>;
   "en-US": Record<string, string>;
 };
-async function getYarmlFile(): Promise<YamlObjet> {
+async function getYamlFile(): Promise<YamlObjet> {
   try {
     const doc = yaml.load(
       fs.readFileSync("script/yaml2json/source.yaml", "utf8")
@@ -50,8 +50,8 @@ function convertToJsonObject(yaml: YamlObjet): JsonObject {
   };
 }
 async function yaml2json() {
-  const yarmRes = await getYarmlFile();
-  const jsonRes = await convertToJsonObject(yarmRes);
+  const yamlRes = await getYamlFile();
+  const jsonRes = await convertToJsonObject(yamlRes);
   fs.writeFile(
     "script/yaml2json/target.json",
     JSON.stringify(jsonRes, null, 2),
